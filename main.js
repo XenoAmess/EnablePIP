@@ -11,10 +11,10 @@
 // @grant        none
 // ==/UserScript==
 
-var REFRESH_TIME = 50;
+var REFRESH_TIME = 500;
 var STRING_OPEN_PICTURE_IN_PICTURE = "显示画中画面板";
 var STRING_CLOSE_PICTURE_IN_PICTURE = "隐藏画中画面板";
-var BILIBILI_LIVE_REG = RegExp(/^http(s)?:\/\/([a-zA-Z0-9\.])+live\.bilibili/);
+var BILIBILI_LIVE_REG = RegExp(/^http(s)?:\/\/([a-zA-Z0-9\.]+)?live\.bilibili/);
 var IS_BILIBILI_LIVE = (window.location.href.match(BILIBILI_LIVE_REG) != null);
 var STRING_BAR_SELECTOR = IS_BILIBILI_LIVE ?
     "div.bilibili-live-player > div.bilibili-live-player-context-menu-container>ul" :
