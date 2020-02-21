@@ -1,11 +1,11 @@
-#Bilibili-PictureInPicture
+# Bilibili-PictureInPicture
 
-##Notice声明
+## Notice声明
 考虑到如果要在Bilibili玩耍一定会中文（至少会开机翻），所以我这边拿中文写readme。常规项目切勿模仿。
 
 Considering about User of Bilibili (and this plugin) MUST have ability to read Chinese so I write this readme in Chinese. Don't do things this way in a normal lib.
 
-##Description描述
+## Description描述
 在chrome中为bilibili启用画中画功能
 (
 需使用[油猴](https://blog.0xbbc.com/2016/09/bilibili-enable-macos-pip-safari-extension/)
