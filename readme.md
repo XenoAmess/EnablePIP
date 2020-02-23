@@ -24,8 +24,13 @@ Considering about User of Bilibili (and this plugin) MUST have ability to read C
 使用教程见https://www.bilibili.com/video/av37116505?p=2
 
 ## Site List支持网站
+
 https://www.bilibili.com/video/*
+
 https://www.bilibili.com/bangumi/play/*
+
 https://live.bilibili.com/*
+
 https://www.icourse163.org/*
+
 
