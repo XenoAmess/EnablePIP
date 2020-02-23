@@ -4,7 +4,7 @@
 // @version      2.1.0
 // @description  Enable Picture in Picture mode in acfun 在acfun中打开画中画模式，使chrome能够使用画中画。
 // @author       LXG_Shadow & XenoAmess
-// @match        https://www.icourse163.org/*
+// @match        https://www.acfun.cn/*
 // @run-at       document-end
 // @grant        none
 // ==/UserScript==
