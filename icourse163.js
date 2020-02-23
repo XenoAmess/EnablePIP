@@ -1,12 +1,13 @@
 // ==UserScript==
 // @name         EnablePIP-icourse163
 // @namespace    EnablePIP
-// @version      2.1.0
+// @version      2.1.1
 // @description  Enable Picture in Picture mode in icourse163 在icourse163(中国大学MOOC)中打开画中画模式，使chrome能够使用画中画。
 // @author       LXG_Shadow & XenoAmess
 // @match        https://www.icourse163.org/*
 // @run-at       document-end
 // @grant        none
+// @supportURL   https://github.com/XenoAmess/EnablePIP.git
 // ==/UserScript==
 
 var REFRESH_TIME = 500;

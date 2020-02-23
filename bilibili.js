@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         EnablePIP-bilibili
 // @namespace    EnablePIP
-// @version      2.1.0
+// @version      2.1.1
 // @description  Enable Picture in Picture mode in Bilibli 在b站中打开画中画模式，使chrome能够使用画中画。
 // @author       LXG_Shadow & XenoAmess
 // @match        https://www.bilibili.com/video/*
@@ -9,6 +9,7 @@
 // @match        https://live.bilibili.com/*
 // @run-at       document-end
 // @grant        none
+// @supportURL   https://github.com/XenoAmess/EnablePIP.git
 // ==/UserScript==
 
 var REFRESH_TIME = 500;
