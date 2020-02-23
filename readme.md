@@ -33,4 +33,12 @@ https://live.bilibili.com/*
 
 https://www.icourse163.org/*
 
+https://www.acfun.cn/*
 
+## Release发布地址
+
+https://greasyfork.org/zh-CN/scripts/396768-enablepip-bilibili
+
+https://greasyfork.org/zh-CN/scripts/396769-enablepip-icourse163
+
+https://greasyfork.org/zh-CN/scripts/396774-enablepip-acfun
