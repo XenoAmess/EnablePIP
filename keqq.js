@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         EnablePIP-keqq
 // @namespace    EnablePIP
-// @version      2.2.0
+// @version      2.2.1
 // @description  Enable Picture in Picture mode in ke.qq.com 在腾讯课堂中打开画中画模式，使chrome能够使用画中画。
 // @author       LXG_Shadow & XenoAmess
 // @match        https://ke.qq.com/*
@@ -13,7 +13,7 @@
 
 /**
  * 特殊注意：
- * 1，腾讯课堂的签到没有提示。所以你们要自己小心签到。丢了签到别赖我啦
+ * 1，腾讯课堂的签到我做了，但是正在调试。emm应该没啥大问题（大概）。
  * 2，那个控制条挺难弄的，请还是选择直接进入画中画吧。
  */
 
@@ -26,11 +26,19 @@ var STRING_EXIT_PICTURE_IN_PICTURE_DIRECT = "直接退出画中画";
 var STRING_POPUP_MENU_SELECTOR = "div#videoContainer > div#debug_box > ul";
 var STRING_CONTROL_BAR_SELECTOR = "div#videoContainer > div#videoControls";
 var STRING_VIDEO_SELECTOR = "div#videoContainer > video#main_video";
+var STRING_CHECKIN_SELECTOR = "div#react-body > div.sign-dialog > div.im-dialog-wrap > div.im-dialog > div.btn-group > span";
+
 var STRING_PIC_IN_PIC_SWITCH = "pictureInPictureSwitch";
 var STRING_PIC_IN_PIC_DIRECT_SWITCH = "pictureInPictureDirectSwitch";
 
 var b_pipMode = false;
 var b_pipMode_direct = false;
+
+function autoSignIn() {
+    if ($(STRING_CHECKIN_SELECTOR).length !== 0) {
+        $(STRING_CHECKIN_SELECTOR).click();
+    }
+}
 
 function switchPictureInPictureMode() {
     if (b_pipMode) {
@@ -70,6 +78,7 @@ function addToToolBar() {
         $il1.click(switchPictureInPictureModeDirect);
         $(STRING_POPUP_MENU_SELECTOR).append($il1);
     }
+    autoSignIn();
 }
 
 (function () {
