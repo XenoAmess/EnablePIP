@@ -37,8 +37,14 @@ https://www.acfun.cn/*
 
 ## Release发布地址
 
+####bilibili
 https://greasyfork.org/zh-CN/scripts/396768-enablepip-bilibili
 
+####icourse163
 https://greasyfork.org/zh-CN/scripts/396769-enablepip-icourse163
 
+####acfun
 https://greasyfork.org/zh-CN/scripts/396774-enablepip-acfun
+
+####腾讯课堂（只支持对主屏幕画中画/只支持直接进入画中画/不支持画中画面板）
+https://greasyfork.org/zh-CN/scripts/396820-enablepip-keqq
