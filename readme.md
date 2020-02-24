@@ -23,7 +23,7 @@ Considering about User of Bilibili (and this plugin) MUST have ability to read C
 
 使用教程见https://www.bilibili.com/video/av37116505?p=2
 
-## Site List支持网站
+# Site List支持网站
 
 https://www.bilibili.com/video/*
 
@@ -37,16 +37,16 @@ https://www.acfun.cn/*
 
 https://ke.qq.com/*
 
-## Release发布地址
+# Release发布地址
 
-###bilibili
+##bilibili
 https://greasyfork.org/zh-CN/scripts/396768-enablepip-bilibili
 
-###icourse163
+##icourse163
 https://greasyfork.org/zh-CN/scripts/396769-enablepip-icourse163
 
-###acfun
+##acfun
 https://greasyfork.org/zh-CN/scripts/396774-enablepip-acfun
 
-###腾讯课堂（只支持对主屏幕画中画/只支持直接进入画中画/不支持画中画面板）
+##腾讯课堂（只支持对主屏幕画中画/只支持直接进入画中画/不支持画中画面板）
 https://greasyfork.org/zh-CN/scripts/396820-enablepip-keqq
