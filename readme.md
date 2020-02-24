@@ -35,6 +35,8 @@ https://www.icourse163.org/*
 
 https://www.acfun.cn/*
 
+https://ke.qq.com/*
+
 ## Release发布地址
 
 ####bilibili
